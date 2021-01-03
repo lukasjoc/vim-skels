@@ -19,7 +19,7 @@ augroup END
 " rust
 " go (use go vim plugin)
 "" default *
-let g:vim_skels = {templats:]}
+" let g:vim_skels = {templats:]}
 
 "TODO:
 " add custom skels matched to file name or extension
