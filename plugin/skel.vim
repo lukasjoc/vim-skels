@@ -8,6 +8,7 @@ augroup Skels
   au BufNewFile *.vue setfiletype html
   au BufNewFile *.vue 0r $HOME/.vim/plugged/vim-skels/skels/skel.vue
   au BufNewFile *.php 0r $HOME/.vim/plugged/vim-skels/skels/skel.php
+  au BufNewFile *.fish 0r $HOME/.vim/plugged/vim-skels/skels/skel.fish
+  au BufNewFile *.pl 0r $HOME/.vim/plugged/vim-skels/skels/skel.pl
   au BufNewFile Makefile 0r $HOME/.vim/plugged/vim-skels/skels/Makefile
 augroup END
-
