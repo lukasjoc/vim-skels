@@ -1,6 +1,4 @@
 # vim-skels
 
-> vim skel / template files
+> vim skel / template files for vim and nvim using vim-plug
 
-Add Custom Skel:
-to update add skel file to skel folder and add rule to ```autoload/skel.vim```
