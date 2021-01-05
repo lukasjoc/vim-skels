@@ -10,17 +10,3 @@ augroup Skels
   au BufNewFile *.php 0r ../skels/skel.php
   au BufNewFile Makefile 0r ../skels/Makefile
 augroup END
-
-" TODO:
-" Default support for all with * and varies  for supported ones
-" bash,fish
-" python,perl
-" c,cpp
-" rust
-" go (use go vim plugin)
-"" default *
-" let g:vim_skels = {templats:]}
-
-"TODO:
-" add custom skels matched to file name or extension
-" let g:custom_skels = {}
