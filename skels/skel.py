@@ -1,5 +1,4 @@
-use strict;
-use warnings;
+""" Hello, World!"""
 
-my $message = "Hello, World!";
-print $message;
+if __name__ == "__main__":
+    print("Hello, World")
