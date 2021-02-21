@@ -1,4 +1,5 @@
 augroup Skels
+  au BufNewFile Makefile 0r $HOME/.vim/plugged/vim-skels/skels/Makefile
   au BufNewFile *.sh,*.bash 0r $HOME/.vim/plugged/vim-skels/skels/skel
   au BufNewFile *.py 0r $HOME/.vim/plugged/vim-skels/skels/skel.py
   au BufNewFile *.c 0r $HOME/.vim/plugged/vim-skels/skels/skel.c
@@ -9,5 +10,5 @@ augroup Skels
   au BufNewFile *.php 0r $HOME/.vim/plugged/vim-skels/skels/skel.php
   au BufNewFile *.fish 0r $HOME/.vim/plugged/vim-skels/skels/skel.fish
   au BufNewFile *.pl 0r $HOME/.vim/plugged/vim-skels/skels/skel.pl
-  au BufNewFile Makefile 0r $HOME/.vim/plugged/vim-skels/skels/Makefile
+  au BufNewFile *.erl 0r $HOME/.vim/plugged/vim-skels/skels/skel.erl
 augroup END
